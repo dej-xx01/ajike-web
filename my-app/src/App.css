@@ -1,12 +1,10 @@
 @import "tailwindcss";
+
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
-
 @layer base{
     li{
-        @apply text-black
+        @apply text-gray-900 text-2xl font-serif
     }
 }
