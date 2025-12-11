@@ -9,6 +9,7 @@ const MainLayout = () =>{
       const [menuClicked, setMenuClicked] = useState(false)
       const navBtn = () =>{
             setMenuClicked(!menuClicked)
+            console.log(menuClicked)
       }
       return(
             <div className="bg-black min-h-screen relative">
