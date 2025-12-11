@@ -7,4 +7,13 @@
     li{
         @apply text-gray-900 text-2xl font-serif
     }
+
+}
+@layer components{
+    .feature{
+        @apply text-white font-serif mb-2
+    }
+    .value{
+        @apply text-gray-400 font-sans mb-2
+    }
 }
