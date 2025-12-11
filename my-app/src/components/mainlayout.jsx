@@ -13,7 +13,7 @@ const MainLayout = () =>{
       }
       return(
             <div className="bg-black min-h-screen relative">
-                  <nav className=" fixed inset-x-0 top-0">
+                  <nav className=" fixed inset-x-0 top-0 bg-black">
                         <div className=" flex border-2 justify-between items-center relative py-4">
                               <Link to = "/">
                                     <div className= "flex flex-col w-fit  leading-5 pl-2">
@@ -41,7 +41,7 @@ const MainLayout = () =>{
 
                   </nav>
                   <Outlet/>
-                  {!menuClicked && <footer className=" py-3 pl-2 w-full fixed bottom-0 ">
+                  {!menuClicked && <footer className=" py-3 pl-2 w-full">
                               <p className= "text-gray-600 text-[10px] font-serif">&copy; 2025 Àjíké. All rights reserved.</p>
                               <p className= "text-gray-800 text-[11px] font-sans">Built by JED</p>
                   </footer>} 
