@@ -30,7 +30,7 @@ const About = () =>{
                             <h2 className="value ">79cm</h2>
                             <h2 className="value ">64cm</h2>
                             <h2 className="value ">94cm</h2>
-                            <h2 className="value ">41US</h2>
+                            <h2 className="value ">41 EUR</h2>
                             <h2 className="value ">Dark</h2>
                             <h2 className="value ">Brown</h2>
                         </div>
