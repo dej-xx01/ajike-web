@@ -1,6 +1,6 @@
 const Contact = () =>{
     return(
-        <section className="pt-25 px-3">
+        <section className="pt-25 px-3 mb-70">
             <form action="">
                 <label htmlFor="name" className="text-white">
                     Your name
