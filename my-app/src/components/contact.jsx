@@ -16,7 +16,7 @@ const Contact = () =>{
                 </label>
                 <label htmlFor="budget" className="text-white">
                     Project Budget (optional)
-                    <input type="text" className="form-input" id="budget" placeholder="what is your budget?"/>
+                    <input type="text" className="form-input" id="budget" placeholder="What is your budget?"/>
                 </label>
                 <label htmlFor="message" className="text-white">
                     Message
