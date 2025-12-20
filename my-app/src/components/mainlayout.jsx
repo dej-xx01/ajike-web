@@ -1,8 +1,10 @@
 import { useState } from "react"
 import { Outlet } from "react-router-dom"
 import { Link } from "react-router-dom"
-import ham from "../assets/images/ham.png"
-import close from "../assets/images/close.png"
+// import ham from "../assets/images/ham.png"
+// import close from "../assets/images/close.png"
+import ham from "../assets/images/menu 24.png"
+import close from "../assets/images/close 24.png"
 import tiktok from "../assets/images/tiktok1.png"
 import IG from "../assets/images/IG.png"
 const MainLayout = () =>{
@@ -29,14 +31,14 @@ const MainLayout = () =>{
                                           <Link to = "/contact"><li onClick={navBtn}>Contact</li></Link>
                                           {menuClicked && (
                                                 <div className="flex gap-x-3 mt-6">
-                                                      <a href="google.com"><img src= {tiktok} className="w-5"/></a>
-                                                      <a href="google.com"><img src= {IG} className="w-5"/></a>                                                      
+                                                      <a href="www.google.com" target="_blank" rel="noopener noreferrer"><img src= {tiktok} className="w-5"/></a>
+                                                      <a href="www.google.com" target="_blank" rel="noopener noreferrer"><img src= {IG} className="w-5"/></a>                                                      
                                                 </div>
 
                                           )}
                                     </ul>
                               </div>
-                              <img src={menuClicked? close : ham} className=" w-6 order-1 z-10 pr-2" onClick={navBtn}/>
+                              <img src={menuClicked? close : ham} className=" w-10 order-1 z-10 pr-3" onClick={navBtn}/>
                         </div>
 
                   </nav>
