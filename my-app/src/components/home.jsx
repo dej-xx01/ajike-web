@@ -33,8 +33,8 @@ const Home = () =>{
                 })}
             </div>: (
                 <div>
-                    <img src= {clickedImage} alt="image" className="rounded-[4px] " />
-                    <button className="text-black bg-white p-2 rounded-[4px]" onClick={() => setClickedImage(null)}>back</button>
+                    <img src= {clickedImage} alt="image" className="rounded-[4px]" />
+                    <button className="text-black bg-white p-2 font-bold" onClick={() => setClickedImage(null)}>back</button>
                 </div>
                 
             )}
