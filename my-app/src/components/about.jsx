@@ -1,5 +1,6 @@
 import { useState } from "react"
-import arrow from "../assets/images/arrow.png"
+import arrowDown from "../assets/images/arrow.png"
+import arrowUp from "../assets/images/arrow up.png"
 import Bisola from "../assets/images/bisola.jpg"
 const About = () =>{
     const [overflow, setOverflow] = useState(false)
@@ -36,11 +37,10 @@ const About = () =>{
                         </div>
                     </div>
                     <div onClick={moreBtn} className="flex justify-center gap-x-1">
-                        <img src={arrow} alt="arrow" />
+                        <img src={overflow? arrowUp : arrowDown} alt="arrow" />
                         <h2 className="text-white">{overflow? "Less" : "More"}</h2>
                     </div>
                     <p className="text-gray-400 italic font-serif mt-6 text-[16px]">Lagos, Nigeria</p>
-                    {/* <button className="text-white border border-b-amber-200" ></button>                   */}
                 </div>
 
             </div>
