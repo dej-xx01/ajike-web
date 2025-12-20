@@ -17,6 +17,6 @@
         @apply text-gray-400 font-sans mb-2
     }
     .form-input{
-        @apply bg-white w-full mb-3 rounded-[2px] h-10 mt-1 p-2 text-gray-900
+        @apply bg-white w-full mb-4 rounded-[2px] h-10 mt-1 p-2 text-gray-900
     }
 }
