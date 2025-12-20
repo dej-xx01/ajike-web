@@ -44,8 +44,8 @@ const MainLayout = () =>{
                   </nav>
                   <Outlet/>
                   {!menuClicked && <footer className=" py-3 pl-2 w-full mt-5">
-                              <p className= "text-gray-600 text-[10px] font-serif">&copy; 2025 Àjíké. All rights reserved.</p>
-                              <p className= "text-gray-800 text-[11px] font-sans">Built by JED</p>
+                              <p className= "text-gray-600 text-[12px] font-serif">&copy; 2025 Àjíké. All rights reserved.</p> 
+                              <p className= "text-gray-800 text-[14px] font-sans">Built by JED</p>
                   </footer>} 
             </div>
       )
