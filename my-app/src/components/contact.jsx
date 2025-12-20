@@ -35,7 +35,7 @@ const Contact = () =>{
     return(
         <section className="pt-25 px-3 mb-70">
             <form action="">
-                <label htmlFor="name" className="text-white text-[14px]">
+                <label htmlFor="name" className="text-white text-[15px]">
                     Your name
                     <input type="text" className="form-input" id="name" onChange={handleClick}  placeholder="Enter your name" value={form.name}/>
                 </label>
