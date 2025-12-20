@@ -16,6 +16,7 @@ const Contact = () =>{
     
     //post function
     const postForm = async() =>{
+
         const {error} = await supabase.from("requests").insert(form).single()
         if (error){
             console.error(error)
