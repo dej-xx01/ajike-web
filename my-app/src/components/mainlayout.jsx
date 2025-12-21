@@ -31,8 +31,8 @@ const MainLayout = () =>{
                                           <Link to = "/contact"><li onClick={navBtn}>Contact</li></Link>
                                           {menuClicked && (
                                                 <div className="flex gap-x-3 mt-6">
-                                                      <a href="www.google.com" target="_blank" rel="noopener noreferrer"><img src= {tiktok} className="w-5"/></a>
-                                                      <a href="www.google.com" target="_blank" rel="noopener noreferrer"><img src= {IG} className="w-5"/></a>                                                      
+                                                      <a href="https://www.instagram.com/ajike.awelewa" target="_blank" rel="noopener noreferrer"><img src= {tiktok} className="w-5"/></a>
+                                                      <a href="https://www.instagram.com/ajike.awelewa" target="_blank" rel="noopener noreferrer"><img src= {IG} className="w-5"/></a>                                                      
                                                 </div>
 
                                           )}
